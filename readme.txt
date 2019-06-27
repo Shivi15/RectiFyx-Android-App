@@ -1,4 +1,4 @@
-To run the rectiFYX App:
-1. Open the project file in Android Stutdio 2.3.3 (IDE).
-2. Wait for the gradle to sync. 
-2. Emulate the project.
+Open files:
+
+1. Rectifyx Android App .doc -  to read the code and working of the app, and
+2. Screenshots of RectiFYx - to see the user interfaces of the actual app.
