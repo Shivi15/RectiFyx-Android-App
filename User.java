@@ -1,20 +1,19 @@
-package com.trial.rectifyapp.Signupinput;
+package com.trial.rectifyapp;
 
 /**
- * Created by student on 05-04-2018.
+ * Created by student on 01-04-2018.
  */
 
-public class User {
+class User {
+    private static String Email, Password, Name;
 
-    private String Email, Password;
-
-    public User(){
-
+    public User() {
     }
 
-    public User(String email, String password) {
-        Email=email;
+    public User(String email, String password, String name) {
+       Email=email;
         Password=password;
+        Name=name;
 
     }
     public String getEmail() {
@@ -33,4 +32,12 @@ public class User {
         Password = password;
     }
 
+    public static String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
 }
+
